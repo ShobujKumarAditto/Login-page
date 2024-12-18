@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Facebook login form area */
+
+
+body{
+  font-family: 'poppins', sans-serif;
+}
+
+
+
+.facebook_loging_area{
+ 
+  border: 1px solid #fafbfd;
+  width: 80%;
+  height: 350px;
+  margin: 20px auto;
+  padding: 5% 5%;
+  background-color: #e5e6e7;
+
+}
+
+/*facebook-textarea*/
+
+
+.floging-textarea{
+  width: 37%;
+  float: left;
+  margin-top: 7%;
+  margin-left: 40px;
+
+}
+
+.floging-textarea h1{
+   font-size: 35px;
+   color: #1e90ff;
+   margin-bottom: 10px;
+}
+
+
+.floging-textarea p{
+  width: 350px;
+  font-size: 18px;
+  color: #2f3542;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*facebook-formarea*/
+
+
+.floging-formarea {
+  width: 37%;
+  float: left;
+
+ padding: 20px 2%;
+ display: block;
+ background-color: #ffffff;
+ box-shadow: 10px 10px 10px hsl(0, 0%, 87%);
+
+}
+
+ .floging-formarea input{
+  width: 89%;
+  padding: 13px 5%;
+  margin-bottom: 20px;
+}
+
+ input[type="button"]{
+  width: 380px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3742fa;
+  color: #fff;
+  border: 1px solid #3742fa;
+  border-radius: 5px;
+}
+
+.floging-formarea pre {
+
+  font-size: 16px;
+  color: #1e90ff;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+hr{
+  margin-bottom: 30px;
+}
+
+.child-input input[type="button2"]{
+
+  width:150px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28d40a;
+  color: #fff;
+  border: 1px solid #28d40a;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+
+}

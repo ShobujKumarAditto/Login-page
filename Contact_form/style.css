@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'poppins', sans-serif;
+}
+
+
+/* Contact Form Styling  */
+
+.contact{
+  width: 50%;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 5%;
+  text-align: center;
+  background-image: url(image/premium_photo-1661758211006-d41106e4be4d.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 9;
+}
+
+.child-form::after{
+  content: '';
+  position: absolute;
+  background-color: #70a1ff;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.1;
+  z-index: -1;
+
+}
+
+.contact h2{
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 15px;
+}
+
+
+.contact p{
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.contact form{
+  margin-top: 30px;
+}
+
+.child-form{
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.child-form label{
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.child-form input,.child-form textarea,.child-form select{
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 10px 3%;
+   width: 94%;
+   font-family: 'poppins', sans-serif;
+}
+
+.child-form select{
+  width: 100%;
+}
+
+
+
+.child-form:last-child{
+  margin-bottom: 0;
+}
+
+.child-form input[type="button"]{
+  width: 200px;
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  color:#fff;
+  cursor: pointer;
+
+ 
+}
+
+.child-form input[type="button"]:hover{
+  background-color: rgb(162, 39, 39);
+  color:#fff;
+  border: 1px solid rgb(11, 11, 11);
+}
